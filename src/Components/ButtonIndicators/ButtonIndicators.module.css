@@ -1,0 +1,9 @@
+.carouselBtn {
+	width: 15px !important;
+	height: 15px !important;
+	border-radius: 40px;
+	background: var(--primaryGreen) !important;
+	border: 1px solid #FFFFFF !important;
+	opacity: 1 !important;
+	align-items: end;
+}

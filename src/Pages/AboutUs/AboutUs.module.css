@@ -1,0 +1,313 @@
+.containerWr {
+	background-color: #FBFBFB;
+	font-size: 1.5vw;
+}
+
+.div1 {
+	background-image: url("/public/images/right_Logo.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 40%;
+	height: 600px;
+}
+
+.div1 p {
+	color: #00000099;
+	margin-top: 6%;
+}
+
+.div1 h1 {
+	font-size: 4.5vw !important;
+}
+
+.aboutDiv {
+	left: 21%;
+	width: 46%;
+}
+
+.imgDiv {
+	top: 50%;
+	height: 50%;
+	right: 5%;
+}
+
+.img2Div img {
+	width: 100%;
+}
+
+/**********************************/
+.div2 {
+	background-image: url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png");
+	background-repeat: no-repeat;
+	background-position: left top, right center, center bottom, left bottom;
+	background-size: 30%, 20%, 30%, 20%;
+	height: 650px;
+}
+
+.img2Div {
+	width: 45%;
+	height: 520px;
+	top: 20%;
+	left: 10%;
+}
+
+.desDiv {
+	font-family: 'Montserrat', "FontAwesome";
+	width: 24%;
+	height: 300px;
+	top: 20%;
+	right: 15%;
+	color: #00000099;
+	font-size: 0.8vw;
+	font-weight: 500;
+}
+
+.span {
+	font-size: 2vw !important;
+}
+
+.upperDiv {
+	width: 55%;
+	height: 20%;
+	font-size: 0.98vw;
+	border-radius: 20px;
+	left: 80%;
+	top: 60%;
+	z-index: 1 !important;
+	font-family: 'Montserrat', "FontAwesome";
+}
+
+.upperDiv img {
+	width: 50px;
+	height: 50px;
+}
+
+.upperDiv i {
+	color: #FEBD2E;
+}
+
+/**************************/
+.div3 {
+	background-image: url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png");
+	background-position: left top, right bottom, center top !important;
+	background-repeat: no-repeat;
+	background-size: 20%, 30%, 30%;
+	height: 700px;
+	font-size: 1.5vw;
+}
+
+.MissionDiv {
+	width: 30%;
+	top: 30%;
+	left: 8%;
+	color: #00000099;
+}
+
+.IncreaseDiv {
+	width: 30%;
+	top: 30%;
+	right: 25%;
+	background-color: #F8FCF8;
+	padding: 24px;
+	color: #00000099;
+}
+
+.IncreaseDiv span {
+	color: var(--primaryGreen);
+}
+
+.activeOver {
+	background-color: #60E808 !important;
+	color: white !important;
+	text-decoration: unset;
+	border: none;
+	font-size: 10px;
+	width: 120px;
+	height: 40px;
+	border-radius: 30px;
+}
+
+/*******************************/
+.leftDiv {
+	width: 65%;
+	left: 5%;
+	top: 10%;
+	height: 70%;
+}
+
+.leftDiv img {
+	width: 100%;
+	height: 75%;
+}
+
+.rightDiv {
+	right: 5%;
+	top: 10%;
+	width: 20%;
+}
+
+.freediv {
+	top: 60% !important;
+}
+
+/**********************************/
+.div4 {
+	background-image: url("/public/images/right_Logo.png");
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-position: top right 30%;
+	height: 600px;
+	font-size: 1.5vw;
+}
+
+.leftDiv2 {
+	width: 30%;
+	height: 60%;
+	left: 10%;
+	top: 20%;
+}
+
+.rightDiv2 {
+	width: 30%;
+	right: 25%;
+	top: 20%;
+	font-family: 'Montserrat', "FontAwesome";
+	color: #00000099;
+	font-size: 0.8vw;
+	font-weight: 500;
+}
+
+.rightDiv2 i {
+	color: var(--primaryGreen);
+}
+
+.rightDiv2 img {
+	width: 40px;
+}
+
+.rightDiv2 h6 {
+	font-size: 0.7rem !important;
+}
+
+/****************************/
+.div5 {
+	background-image: url("/public/images/right_Logo.png"), url("/public/images/right_Logo.png");
+	background-repeat: no-repeat;
+	background-size: 30%, 30%;
+	background-position: right top, left bottom;
+	height: 500px;
+	font-size: 1.5vw;
+}
+
+.leftDiv3 {
+	width: 24%;
+	left: 25%;
+	color: #00000099;
+	font-size: 0.8vw;
+	top: 10%;
+}
+
+.rightDiv3 {
+	right: 10%;
+	top: 10%;
+	width: 30%;
+}
+
+.leftDiv3 button {
+	font-family: 'Montserrat', "FontAwesome";
+	background-color: black;
+	color: white;
+	border: none;
+	width: 120px;
+	height: 40px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+@media (max-width: 1023px) {
+	.div1 {
+		height: 300px;
+	}
+
+	.img2Div {
+		height: 300px;
+
+	}
+
+	.div2 {
+		height: 450px;
+	}
+
+	.desDiv {
+		width: 30%;
+		height: 185px !important;
+		right: 10%;
+		font-size: 5px !important;
+	}
+
+	.desDiv h2 {
+		font-size: 19px !important;
+	}
+
+	.div3,
+	.div4 {
+		height: 400px;
+	}
+
+	.MissionDiv {
+		width: 40%;
+		top: 10%;
+		left: 4%;
+	}
+
+	.IncreaseDiv {
+		width: 50%;
+		top: 10%;
+		right: 5%;
+	}
+
+	.leftDiv {
+		width: 65%;
+		left: 5%;
+	}
+
+	.rightDiv {
+		right: 0%;
+	}
+
+	.lineDive {
+		margin-top: 1rem !important;
+		margin-bottom: 1rem !important;
+	}
+
+	.rightDiv2 {
+		width: 35%;
+		right: 10%;
+		font-size: 7px;
+	}
+
+	.rightDiv2 h3,
+	.MissionDiv h3,
+	.IncreaseDiv h4,
+	.leftDiv h3,
+	.leftDiv3 h3 {
+		margin-bottom: 2rem !important;
+		font-size: 1rem !important;
+	}
+
+	.leftDiv2 {
+		width: 40%;
+		height: 70%;
+		left: 5%;
+	}
+
+	.div5 {
+		height: 300px;
+	}
+
+	.leftDiv3 {
+		width: 40%;
+		left: 10%;
+		font-size: 7px;
+	}
+}

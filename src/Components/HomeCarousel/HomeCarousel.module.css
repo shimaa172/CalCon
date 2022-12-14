@@ -1,0 +1,19 @@
+.GroupLogo {
+	width: 160px;
+	height: 60px;
+}
+
+.caption {
+	display: flex !important;
+	z-index: 2;
+	justify-content: space-around;
+}
+
+@media (max-width: 1023px) {
+
+	.GroupLogo {
+		width: 100px;
+		height: 40px;
+	}
+
+}

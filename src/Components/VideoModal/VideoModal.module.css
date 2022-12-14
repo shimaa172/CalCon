@@ -1,0 +1,76 @@
+.h10 {
+	color: #000;
+	text-align: center;
+}
+
+.VideoIcone {
+	top: 30%;
+	left: 38%;
+	z-index: 2;
+}
+.mealsDiv {
+	width: 100%;
+	height: 80%;
+	border-radius: 33px;
+}
+.mealsImg{
+	border-radius: 33px;
+}
+
+.ViewLink {
+	font-size: 16px !important;
+	color: #000000CC !important;
+	top: 40%;
+}
+
+.ViewLink:hover {
+	color: var(--primaryGreen) !important;
+}
+
+.Dimag {
+	width: 10.5%;
+	height: 100%;
+	margin-left: 1%;
+}
+
+.bgColor3 {
+	width: 100% !important;
+	height: 80% !important;
+	margin-top: 7px !important;
+	border-radius: 30px !important;
+	opacity: .54;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 50px;
+	background-image: linear-gradient(180deg, #76C9401A 0%, #4F872B 100%);
+}
+
+.TabDiv {
+	height: 85%;
+}
+
+@media (max-width: 1023px) {
+
+	.ViewLink {
+		margin-left: 45% !important;
+		position: unset !important;
+	}
+
+	.Dimag {
+		width: 23%;
+		height: 150px;
+		margin-left: 1.6%;
+
+	}
+
+	.meals,
+	.video {
+		height: auto !important;
+	}
+
+	.VideoIcone {
+		font-size: 15px !important;
+	}
+
+}

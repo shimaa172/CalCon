@@ -1,0 +1,322 @@
+.details {
+	background-image: url("../../../public/images/left_Logo.png"), url("../../../public/images/right_Logo.png");
+	height: auto;
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+	clear: both;
+	padding-top: 50px;
+
+}
+
+.details .detailone {
+	height: 400px;
+	padding: 20px 30px;
+	position: relative;
+
+}
+.details .detailone img{
+	border-radius: 40px;
+}
+
+.details .detailone .detailsprice {
+	background-color: rgb(245, 248, 245);
+	width: 37%;
+	opacity: .9;
+	text-align: center;
+	padding: 10px 2px;
+	font-size: 30px;
+	color: rgb(156, 165, 150) !important;
+	border-radius: 9px;
+	position: absolute;
+	bottom: -20px;
+	right: 160px;
+	box-shadow: 1px 1px 1px;
+	font-weight: 500;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+	.details .detailone .detailsprice {
+		right: 214px;
+
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	.details .detailone .detailsprice {
+		right: 121px;
+	}
+}
+
+@media only screen and (max-width:576px) {
+	.details .detailone .detailsprice {
+		right: 150px;
+	}
+}
+
+.text {
+	font-size: 15px;
+	color: rgb(202, 206, 199);
+	line-height: 15px;
+}
+
+.detailtwo {
+	margin-bottom: 30px;
+	/* */
+}
+
+@media only screen and (min-width:1200px) {
+	.detailtwo {
+		padding-top: 90px;
+	}
+}
+
+@media only screen and (min-width:992px) {
+	.detailtwo {
+		padding-top: 50px;
+	}
+}
+
+.detailone {
+	margin-bottom: 40px;
+}
+
+.info {
+	border-left: 6px solid rgb(118, 201, 64);
+	padding-left: 22px;
+	padding-bottom: 6px;
+}
+
+.price {
+	border-left: 6px solid rgb(118, 201, 64);
+	padding-left: 22px;
+
+	margin: 40px 0px;
+}
+
+.textheader {
+	color: rgb(41, 42, 43);
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.firstbutton {
+	width: 30% !important;
+	margin-left: 20px !important;
+	font-size: 15px !important;
+}
+
+.firstbuttwo {
+	width: 35% !important;
+	margin-left: 20px !important;
+	font-size: 15px !important;
+}
+
+@media only screen and (max-width:992px) {
+	.firstbutton {
+		width: 40% !important;
+
+	}
+
+	.firstbuttwo {
+		width: 45% !important;
+	}
+}
+
+/* /////////////////////////////////////////// */
+.starsicon {
+	margin-top: 10px;
+	font-size: 8px;
+
+}
+
+.buttonstar {
+	display: inline-block;
+	float: right;
+	background-color: rgb(118, 201, 64);
+	clear: both;
+	color: white;
+	border: none;
+	border-radius: 10px;
+
+}
+
+.starsicon i {
+	margin-left: 3px;
+}
+
+.iconcolor {
+	color: rgb(204, 204, 204);
+}
+
+.revparent {
+	position: relative;
+}
+
+.rev {
+	width: 20%;
+	display: inline-block;
+	color: rgb(32, 32, 32);
+	font-weight: 600;
+}
+
+.rev::after {
+	content: "";
+	display: block;
+	width: 80%;
+	height: 2px;
+	background-color: rgb(235, 237, 239);
+	position: absolute;
+	bottom: 25px;
+	left: 160px;
+}
+
+.reviewicon {
+	display: inline-block;
+	padding: 0px 5px;
+	text-align: center;
+	font-size: 57px;
+
+}
+
+.reviewicon i {
+	color: rgb(255, 119, 68);
+}
+
+.reviewicontwo {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.iconicon {
+
+	color: rgb(255, 119, 68);
+}
+
+.customicon {
+	background-color: rgb(136, 208, 89) !important;
+	padding: 5px 4px;
+	font-size: 14px;
+}
+
+.detsecondim {
+	height: 650px;
+	background: linear-gradient(to top, rgba(72, 110, 20, 0.294), rgba(72, 110, 20, 0.328)), url("../../../public/images/againagain.png");
+	background-size: 105%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 82px;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.felxtag {
+	width: 100%;
+}
+
+.imgcontain {
+	text-align: center;
+	width: 91%;
+
+	margin: 0px auto;
+
+}
+
+.imgcontain img {
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+
+}
+
+/* /////////////////////////////////*/
+.iconsize {
+	font-size: 10px;
+	margin-left: 3px;
+}
+
+.spanfont {
+	font-size: 10px;
+}
+
+.reviewsimiparent {
+	position: relative;
+
+
+}
+
+.baadge {
+
+	position: absolute;
+	right: 0px;
+	top: 42px;
+}
+
+.icontext {
+	line-height: 16px !important;
+	color: black;
+	font-size: 10px;
+	margin-top: 0px;
+}
+
+.deetspan {
+	color: black !important;
+	display: inline-block;
+	font-weight: bold;
+}
+
+/* ///////////////////////////////////////////////////// */
+.detfirstim {
+	height: 650px;
+	background: linear-gradient(to top, rgba(72, 110, 20, 0.294), rgba(72, 110, 20, 0.328)), url("../../../public/images/finalaagain.png");
+	background-size: 105%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 82px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.detfirstim h1 {
+	width: 70%;
+	margin: 0px auto;
+	font-weight: bold;
+	color: aliceblue;
+}
+
+.detsecondim h1 {
+	width: 70%;
+	/* margin: 0px auto; */
+	font-weight: bold;
+	color: aliceblue;
+	/* text-align: start; */
+	padding-left: 26px;
+}
+
+.iconsearch {
+	padding: 20px 40px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.279);
+}
+
+.iconsearch input {
+	border-radius: 20px;
+	border: 1px solid black;
+}
+
+.iconsearch input:focus {
+	box-shadow: none !important;
+	background: none;
+	border: 1px solid black;
+
+}

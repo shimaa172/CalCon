@@ -1,0 +1,44 @@
+.progbar{
+	width: 270px;
+	
+}
+
+.cent {
+	position: relative;
+	width: 405px;
+}
+
+.cent p {
+	position: absolute;
+	bottom: -10%;
+	color: white;
+	font-weight: bold;
+	z-index: 2;
+}
+
+.cent img {
+	width: 60%;
+	height: 100px;
+
+}
+
+.styLink {
+	padding: 10px 40px;
+	background-color: var(--primaryGreen);
+	border-radius: 10px;
+	color: white !important;
+}
+
+.bgColor {
+	width: 60%;
+	height: 100%;
+	opacity: .54;
+	background-image: linear-gradient(180deg, #76C9401A 0%, #4F872B 100%);
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+
+}
+.goalBg{
+	border: 10px solid #040504;
+}

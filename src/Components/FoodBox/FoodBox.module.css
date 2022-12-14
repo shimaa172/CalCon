@@ -1,0 +1,16 @@
+.divWrapp {
+	border: 1px solid var(--primaryGreen);
+	color: black;
+	width: 100px;
+	height: 100px;
+	/* padding: 20px 0px; */
+	border-radius: 5px;
+
+}
+
+.divWrapp div {
+	text-align: center;
+}
+.images{
+	width: 50px;
+}

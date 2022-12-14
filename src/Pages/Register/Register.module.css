@@ -1,0 +1,37 @@
+.l_side {
+	background-image: url("/public/images/reg.PNG");
+	background-size: 45% 100%;
+	background-repeat: no-repeat;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	display: flex !important;
+
+}
+
+.r_side {
+	background-image: url("/public/images/left_Logo.png"), url("/public/images/right_Logo.png");
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+	background-color: white;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+.sideHid {
+	display: flex !important;
+}
+
+@media (max-width: 1023px) {
+	.lastP {
+		width: 260px;
+	}
+
+	.sideHid {
+		display: none !important;
+	}
+
+	.RightDivContent {
+		width: 80% !important;
+	}
+}

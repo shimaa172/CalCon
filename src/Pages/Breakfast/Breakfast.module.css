@@ -1,0 +1,52 @@
+.meals1 {
+	height: auto !important;
+	background-color: unset !important;
+	border-radius: unset !important;
+	box-shadow: unset !important;
+}
+.p1 {
+	font-size: 2.5vw;
+	width: 60%;
+}
+
+.GroupLogo2 {
+	width: 20%;
+}
+
+.Div2 {
+	width: 90%;
+}
+
+.Div2 ul li {
+	font-family: 'Montserrat', "FontAwesome";
+	height: 40px;
+	background-color: #F4F9FF;
+	color: #000000DE;
+	border-radius: 28px;
+	font-size: 1.2vw;
+}
+
+.activeOver1:focus {
+	color: white !important;
+	background-color: var(--primaryGreen) !important;
+	text-decoration: unset !important;
+	border-radius: 28px;
+}
+
+.h6 {
+	color: red !important;
+}
+
+.cardDiv {
+	border-radius: 20px;
+	height: 400px!important;
+}
+
+.cardDiv img {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.pDiv {
+	font-size: 2.5vw;
+}

@@ -1,0 +1,12 @@
+.VideoIcone {
+	width: 50px !important;
+	height: 50px !important;
+	font-size: 2vw !important;
+}
+
+@media (max-width: 1023px) {
+
+	.VideoIcone {
+		font-size: 25px !important;
+	}
+}

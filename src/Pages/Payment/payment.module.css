@@ -1,0 +1,219 @@
+.parentpyment {
+	background-color: rgb(212, 238, 196);
+	padding-bottom: 20px;
+
+}
+
+.secondpar {
+	background-image: url("../../../public/images/left_Logo.png"), url("../../../public/images/right_Logo.png");
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+}
+
+.pycontain {
+	background-color: white;
+	padding: 15px 20px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+/* //////////////////////////////////////// */
+.clickpos {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	/*  */
+	/*  */
+	background-color: rgba(146, 146, 147, 0.7);
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 10px;
+	display: none;
+
+}
+
+.purchase {
+	color: rgb(235, 240, 232);
+	font-size: 20px;
+}
+
+.check {
+	border: 3px solid rgb(118, 201, 64) !important;
+	width: 60px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 3px;
+	border-radius: 30px;
+	line-height: 66px
+}
+
+.check i {
+	font-size: 30px;
+	color: rgb(118, 201, 64) !important;
+}
+
+/* ///////////////////////////////////////// */
+.ship {
+	color: white;
+	background-color: rgb(118, 201, 64) !important;
+	width: 17px;
+	display: inline-block;
+	border-radius: 13px;
+	font-size: 11px;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.field {
+	color: red;
+	font-size: 11px;
+}
+
+.creditinfo {
+	margin-bottom: 0px;
+	padding: 0px 20px;
+}
+
+.innputs {
+	border-color: rgb(118, 201, 64) !important;
+
+}
+
+.innputs:focus {
+	box-shadow: none !important;
+}
+
+.inputtag {
+	display: inline-block !important;
+	width: 39%;
+	margin-right: 15px;
+}
+
+.creditcard {
+	font-size: 20px;
+}
+
+.shoppingbag {
+	position: absolute;
+	left: 240px;
+	margin-top: 4px;
+
+}
+
+.fieldtwo {
+	color: black !important;
+	font-size: 11px;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.creditnum {
+	margin-top: 0px;
+	/* width: 100%; */
+	margin-bottom: 3px;
+}
+
+.colorddiv {
+	background-color: rgb(250, 250, 250);
+	position: relative;
+	padding: 15px 20px;
+}
+
+.creditnumtwo {
+	margin-top: 15px;
+	/* width: 100%; */
+	margin-bottom: 3px;
+
+	margin-right: 5px;
+}
+
+.pynum {
+	width: 30%;
+	border-color: rgb(118, 201, 64) !important;
+	margin-right: 12px;
+	display: inline-block;
+
+}
+
+.pynumtwo {
+	width: 30%;
+	border-color: rgb(118, 201, 64) !important;
+	margin-left: 12px;
+	display: inline-block;
+}
+
+.pynum:focus {
+	border-color: rgb(118, 201, 64) !important;
+	box-shadow: none;
+
+}
+
+.ccheck {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(118, 201, 64) !important;
+	color: red !important;
+	margin-right: 6px;
+}
+
+.checkparg {
+	display: inline-block;
+	width: 80%;
+	font-size: 12px;
+}
+
+/* ///////////////////////////////////// */
+.summery {
+	text-align: start;
+}
+
+.creditinfo {
+	text-align: start;
+
+}
+
+.optionsty {
+	width: 81%;
+	border-color: rgb(118, 201, 64) !important;
+}
+
+.optionsty:focus {
+	box-shadow: none;
+}
+
+.reminfo {
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+
+.remdetail {
+	font-size: 10px;
+	width: 80%;
+	margin-top: 0px;
+	color: black !important;
+}
+
+.price {
+	color: black !important;
+	font-size: 12px;
+	border-bottom: 1px solid rgb(118, 201, 64) !important;
+	width: 80%;
+}
+
+.pricetotal {
+	font-weight: bold;
+	color: black !important;
+
+}
+
+.pricetotalh {
+	font-weight: bold;
+
+}

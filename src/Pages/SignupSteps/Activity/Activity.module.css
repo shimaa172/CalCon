@@ -1,0 +1,30 @@
+.line1Over {
+	background-color: var(--primaryGreen);
+	height: 5px;
+	top: 30%;
+}
+
+.dotWOver {
+	background-color: var(--primaryGreen);
+}
+
+.divWrap {
+	border: 1px solid var(--primaryGreen);
+	color: black;
+	width: 145px;
+	padding: 25px 0px;
+	border-radius: 5px;
+
+}
+
+.divWrap div {
+	text-align: center;
+}
+
+.activityBg{
+	background-color: var(--primaryGreen);
+}
+.progbar1{
+	width: 270px;
+	padding-left: 45px;
+}

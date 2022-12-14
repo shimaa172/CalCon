@@ -1,0 +1,195 @@
+.parentprofile {
+	background-color: rgb(212, 238, 196);
+	padding-top: 50px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.parentback {
+	height: 100%;
+	background-image: url("../../../public/images/left_Logo.png"), url("../../../public/images/right_Logo.png");
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+}
+
+@media only screen and (min-width:768px) {
+	.parentprofile {
+		padding-bottom: 131px !important;
+
+	}
+}
+
+.parentprofile .customdrop {
+	color: #212529 !important;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 30px;
+
+}
+
+.profone {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(152, 214, 112);
+	margin-right: 15px;
+	border-radius: 5px;
+	/* padding-left: 10px; */
+}
+
+.proftwo {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(152, 214, 112);
+	margin-right: 15px;
+	border-radius: 5px;
+	/* padding-left: 10px; */
+	padding-bottom: 30px;
+	height: 80%;
+}
+
+.tagroba {
+	width: 100% !important;
+}
+
+.tagroba:visited {
+	text-decoration: none;
+}
+
+.tagroba:hover {
+	color: rgb(118, 201, 64) !important;
+	border-left: 3px solid rgb(118, 201, 64) !important;
+}
+
+.porftwotext {
+	font-weight: bold;
+}
+
+.prodetailes {
+	color: black;
+}
+
+.customform:focus {
+	box-shadow: none !important;
+	color: rgb(118, 201, 64) !important;
+	background-color: transparent !important;
+	border: 1px solid rgb(118, 201, 64) !important;
+	border-color: rgb(118, 201, 64) !important;
+	outline: 0;
+
+}
+
+.parentprofile .btn {
+	width: 94% !important;
+}
+
+.proftwo input[type="date"]::-webkit-inner-spin-button,
+.proftwo input[type="date"]::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}
+
+.proftwo input[type="date"]::before {
+	content: attr(data-placeholder);
+	color: #99A293;
+	font-size: 0.9vw;
+	width: 100%;
+}
+
+.proftwo input[type="date"]:focus::before,
+.proftwo input[type="date"]:valid::before {
+	display: none
+}
+
+.proftwo input::placeholder,
+.proftwo select {
+	color: #99A293 !important;
+	font-size: 0.9vw !important;
+}
+
+.editIcon {
+	top: 35%;
+	right: 10%;
+	color: #99A293;
+	font-size: 0.9vw !important;
+	font-family: 'Montserrat', 'FontAwesome' !important;
+	font-weight: 400 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.proftwo input,
+.proftwo select {
+	box-shadow: 0px 0px 10px #9ee4717d;
+	border: 1px solid #76C940;
+	border-radius: 16px !important;
+}
+
+.proftwo input:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: var(--primaryGreen) !important;
+}
+
+.btnbtn {
+	border: 2px solid var(--primaryGreen);
+	border-radius: 12px;
+	color: var(--primaryGreen);
+	font-weight: bold;
+}
+
+.btnbtn:hover {
+	color: white !important;
+	background-color: var(--primaryGreen);
+	border: none;
+
+}
+
+.btnbtn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.ProfileImg {
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	top: -10%;
+	left: 9%;
+	border-radius: 40px;
+}
+
+@media only screen and (max-width:768px) {
+	.profone {
+		margin-bottom: 20px;
+	}
+
+	.profone,
+	.proftwo {
+		margin-right: 0px;
+	}
+
+	.personalDiv div {
+		width: 70%;
+	}
+
+	.proftwo select {
+		height: 38px;
+	}
+
+	.proftwo input::placeholder,
+	select {
+		font-size: 10px !important;
+	}
+
+	.ProfileImg {
+		top: -5%;
+		left: 35%;
+	}
+
+	.editIcon {
+		top: 45%;
+	}
+}

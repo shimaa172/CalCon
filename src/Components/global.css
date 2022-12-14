@@ -1,0 +1,32 @@
+.inputSty {
+	height: 37.6px;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid var(--primaryGreen);
+	border-radius: 10px;
+	text-indent: 20px;
+	cursor: pointer;
+}
+
+.inputSty:focus {
+	border-color: var(--primaryGreen);
+	outline: none;
+	color: var(--primaryGreen);
+}
+
+.inputSty::placeholder {
+	color: black;
+}
+
+.bttn {
+	width: 75%;
+	background-color: var(--primaryGreen);
+	color: white !important;
+	padding: 5px;
+	border: 1px solid var(--primaryGreen);
+	border-radius: 10px;
+}
+
+.bttn:focus {
+	box-shadow: none;
+}

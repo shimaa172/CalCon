@@ -1,0 +1,136 @@
+.containerWr {
+	background-color: #FBFBFB;
+	font-size: 1.5vw;
+}
+
+.part2Wr {
+	background-image: url("/public/images/left_Logo.png"), url("/public/images/right_Logo.png");
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+}
+
+.d1 {
+	width: 90%;
+	color: white !important;
+}
+
+.d1Div {
+	width: 50%;
+}
+
+.meals,
+.video {
+	background-color: white;
+	border-radius: 31px;
+	box-shadow: 0px 3px 6px #00000029;
+	height: 178px;
+}
+
+.imgText {
+	color: black !important;
+	display: inline-block;
+	width: 10.5%;
+	text-align: center;
+	font-weight: 600;
+	margin-left: 1.78%
+}
+
+.bgColor1,
+.bgColor2,
+.bgColor3 {
+	width: 98%;
+	height: 98%;
+	opacity: .54;
+	z-index: 1;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 50px;
+	background-image: linear-gradient(180deg, #76C9401A 0%, #4F872B 100%);
+	margin-left: 5px;
+
+}
+
+.bgColor2 {
+	width: 99% !important;
+}
+
+.bgColor3 {
+	width: 91% !important;
+	height: 70% !important;
+	margin-top: 7px !important;
+	border-radius: 30px !important;
+	margin-left: 4% !important;
+}
+
+.freeDiv {
+	font-size: 3vw !important;
+	width: fit-content;
+	z-index: 2;
+}
+
+.workoutDiv {
+	color: #000000DE;
+	font-size: 3vw;
+}
+
+.d3 {
+	width: 90%;
+}
+
+.card2Div p,
+.d3 .p2 {
+	font-size: 16px;
+	color: #000;
+}
+
+.card2Div p span {
+	font-size: 17px;
+	color: #7E7E7E;
+	font-weight: normal;
+}
+
+.card2Div form input {
+	font-size: 13px;
+	color: white;
+	background-color: var(--primaryGreen);
+	border: none;
+	border-radius: 4px;
+	width: 138px;
+	height: 39px;
+	margin-top: 30px;
+}
+
+.card2Div h5 {
+	font-family: 'Montserrat', "FontAwesome";
+	font-size: 14px;
+	margin-bottom: 18px;
+}
+
+.card2Div h5 span {
+	margin: 0px 12px 0px 18px;
+}
+
+@media (max-width: 1023px) {
+
+	.meals,
+	.video {
+		height: auto !important;
+	}
+
+	.bgColor3 {
+		width: 91% !important;
+		height: 74% !important;
+		margin-left: 4% !important;
+		margin-top: 10px !important;
+	}
+
+	.tapUl {
+		width: 80% !important;
+	}
+
+	.tapUl li {
+		width: 23% !important;
+	}
+
+}

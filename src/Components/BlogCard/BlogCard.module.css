@@ -1,0 +1,13 @@
+.card1 {
+	background-color: unset;
+	border: none;
+}
+
+.userSpan {
+	margin-left: 0px !important;
+}
+
+.userSpan,
+.calSpan {
+	color: #b15357;
+}

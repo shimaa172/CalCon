@@ -1,0 +1,41 @@
+.line1Over {
+	background-color: var(--primaryGreen);
+	height: 5px;
+	top: 30%;
+}
+
+.dotWOver {
+	background-color: var(--primaryGreen);
+}
+
+.btns button {
+	border-color: var(--primaryGreen) !important;
+
+}
+
+.btns button:focus {
+	box-shadow: unset !important;
+}
+
+.inpStyle {
+	width: 60%;
+}
+
+.inpStyle input {
+	color: var(--primaryGreen) !important;
+	border-color: var(--primaryGreen) !important;
+}
+
+.inpStyle input:focus {
+	border-color: var(--primaryGreen) !important;
+	box-shadow: unset !important;
+}
+
+.inpStyle span {
+	color: #00000066 !important;
+	background-color: unset !important;
+	border-color: var(--primaryGreen) !important;
+}
+.genderBg{
+	background-color: var(--primaryGreen);
+}

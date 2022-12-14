@@ -1,0 +1,13 @@
+.line1Over {
+	background-color: var(--primaryGreen);
+	height: 5px;
+	top: 30%;
+}
+
+.dotWOver {
+	background-color: var(--primaryGreen);
+}
+.progbar1{
+	width: 270px;
+	padding-left: 45px;
+}

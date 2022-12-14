@@ -1,0 +1,46 @@
+.dot,
+.dotW,
+.dotW2,
+.dotW3 {
+	height: 15px;
+	width: 15px;
+	background-color: var(--primaryGreen);
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dotW,
+.dotW2,
+.dotW3 {
+	background-color: whitesmoke;
+	position: absolute;
+	top: 10%;
+	left: 84px;
+}
+
+.dotW2 {
+	left: 168px;
+}
+
+.dotW3 {
+	left: 252px;
+}
+
+.line1,
+.line2,
+.line3 {
+	height: 1px;
+	width: 70px;
+	background-color: #ebcccc;
+	position: absolute;
+	top: 40%;
+	left: 14px;
+}
+
+.line2 {
+	left: 99px;
+}
+
+.line3 {
+	left: 183px;
+}

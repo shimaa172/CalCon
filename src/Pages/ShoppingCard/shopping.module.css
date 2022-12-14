@@ -1,0 +1,283 @@
+.parentshop {
+	background-color: rgb(212, 238, 196);
+	padding-top: 100px;
+	padding-bottom: 30px;
+
+	background-image: url("../../../public/images/left_Logo.png"), url("../../../public/images/right_Logo.png");
+	background-repeat: repeat-y;
+	background-position: left, right top;
+	background-size: 50%, 30%;
+
+}
+
+@media only screen and (min-width:1200px) {
+	.parentshop {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}
+
+.secoundparent {
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 50px;
+	border-radius: 15px;
+
+}
+
+.parentcolor {
+	background-color: rgb(251, 251, 251);
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.328);
+	padding: 10px 10px;
+	border-radius: 15px;
+}
+
+.leftparent {
+	background-color: rgb(251, 251, 251);
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.328);
+	padding: 30px 30px;
+	border-radius: 15px;
+
+}
+
+/* .leftparent{
+}  */
+.divfelx {
+	display: flex;
+	margin-top: 0px;
+	margin-left: 15px;
+}
+
+.parag {
+	color: rgb(118, 201, 64) !important;
+	background-color: white;
+	width: 23%;
+	text-align: center;
+	border-radius: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+/* ////////////////////////////////////// */
+
+.tdone {
+	display: flex;
+
+}
+
+.tdtwo {
+	display: flex;
+
+}
+
+.spaninfo {
+	color: grey;
+	font-size: 13px;
+	margin-top: 0px;
+}
+
+.tdtwop {
+	background-color: rgb(118, 201, 64) !important;
+	width: 20px;
+	height: 20px;
+	font-size: 18px;
+	text-align: center;
+	margin-right: 10px;
+	color: white;
+	line-height: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 5px;
+
+}
+
+.tdone img {
+	width: 30%;
+	border-radius: 15px;
+
+}
+
+.deletecol {
+	color: red;
+}
+
+.deletecol:hover {
+	cursor: pointer;
+}
+
+.hcolor {
+	color: rgb(109, 119, 128);
+}
+
+.hweight {
+	font-weight: bold;
+}
+
+.tdone p {
+	display: inline-block !important;
+	margin-top: 5px;
+	color: gray !important;
+	font-weight: 500;
+	margin-left: 4px;
+}
+
+
+/* ////////////////////////////////////////// */
+
+.paragtwo {
+	color: white;
+	margin-top: 0px !important;
+	margin-bottom: 4px;
+}
+
+.credit {
+	margin-bottom: 0px;
+	display: inline-block;
+	width: 45%;
+	margin-left: 16px;
+}
+
+.credittwo {
+	margin-bottom: 0px;
+	display: inline-block;
+	width: 40%;
+	margin-left: 16px;
+}
+
+.firstdiv {
+	background-color: rgb(118, 201, 64);
+	width: 45%;
+	padding: 6px;
+	border-radius: 10px;
+	box-shadow: 1px 11px 13px rgba(0, 0, 0, 0.275);
+
+}
+
+.secounddiv {
+	margin-left: 20px;
+	background-color: rgb(118, 201, 64);
+	width: 45%;
+	padding: 6px;
+	border-radius: 10px;
+	box-shadow: 1px 11px 13px rgba(0, 0, 0, 0.275);
+	cursor: pointer;
+	position: relative;
+	padding-top: 50px;
+}
+
+.hide {
+	opacity: 0;
+	cursor: pointer !important;
+	width: 100;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	top: 0px
+}
+
+.paraginput {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.305);
+	width: 12%;
+
+	height: 30px;
+	line-height: 31px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+
+.tataaa {
+	position: fixed;
+	bottom: 10px;
+	right: 70px;
+}
+
+.tataaa input {
+	visibility: hidden;
+}
+
+/* //////////////////////////////////////////// */
+.cardholder input[type="text"] {
+	color: gray;
+	/* font-weight: 600; */
+	border-color: rgb(118, 201, 64) !important;
+	border-width: 2px;
+}
+
+.cardholder input[type="text"]:focus {
+	box-shadow: none !important;
+}
+
+.paragtwoagain {
+	background-color: rgb(118, 201, 64) !important;
+	margin-top: 0px !important;
+	font-size: 20px;
+	color: white;
+	padding: 10px 28px;
+	border-radius: 15px;
+	box-shadow: 1px 11px 13px rgba(0, 0, 0, 0.275);
+
+}
+
+.paragtwoagain p {
+	margin-bottom: 0px;
+}
+
+.paragnumber {
+	margin-bottom: 0px !important;
+
+}
+
+.pcredit {
+	display: inline-block;
+}
+
+.creditshow {
+	float: right;
+	background: no-repeat;
+	border: none;
+	color: white;
+	font-size: 15px;
+	margin-top: 3px;
+
+}
+
+.finalbutton {
+	text-align: center;
+}
+
+.finalfirstbut {
+	width: 40%;
+	text-align: center;
+	border: 2px solid rgb(118, 201, 64) !important;
+	background: none;
+	border-radius: 10px;
+	color: rgb(118, 201, 64) !important;
+	font-weight: 600;
+	margin-right: 15px;
+}
+
+.finalsecondbut {
+	width: 40%;
+	text-align: center;
+	border: 2px solid rgb(118, 201, 64) !important;
+	background: none;
+	border-radius: 10px;
+	color: rgb(118, 201, 64) !important;
+	font-weight: 600;
+
+}
+
+.removeall {
+	color: red;
+	float: right;
+}
+
+.removeall:hover {
+	cursor: pointer;
+}

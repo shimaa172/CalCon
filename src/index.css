@@ -1,0 +1,16 @@
+@import "./Components/global.css";
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primaryGreen: #74cc3d;
+}
+
+body {
+	color: var(--primaryGreen);
+	font-family: "Montserrat", "FontAwesome";
+	overflow-x: hidden;
+}
